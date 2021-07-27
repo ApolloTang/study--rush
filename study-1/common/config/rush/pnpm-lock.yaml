@@ -41,7 +41,7 @@ importers:
       webpack-dev-server: 3.11.1
     dependencies:
       '@mylibs/ui--button': link:../../ui/button
-      '@mylibs/ui--react-cat-image': link:../../ui/ui--react-cat-image
+      '@mylibs/ui--react-cat-image': link:../../ui/react-cat-image
       core-js: 3.15.2
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -109,7 +109,7 @@ importers:
       babel-plugin-styled-components: 1.13.2_styled-components@5.3.0
       react: 17.0.2
 
-  ../../ui/ui--react-cat-image:
+  ../../ui/react-cat-image:
     specifiers:
       '@babel/cli': ^7.8.4
       '@babel/core': ^7.8.6
@@ -5514,8 +5514,16 @@ packages:
       yargs: 13.3.2
     dev: true
 
+  /webpack-combine-loaders/2.0.4:
+    resolution: {integrity: sha512-5O5PYVE5tZ3I3uUm3QB7niLEJzLketl8hvAcJwa4YmwNWS/vixfVsqhtUaBciP8J4u/GwIHV52d7kkgZJFvDnw==}
+    dependencies:
+      qs: 6.7.0
+    dev: true
+
   /webpack-config-utils/2.3.1:
     resolution: {integrity: sha512-0uC5uj7sThFTePTQjfpe5Wqcbw3KSCxqswOmW96lwk2ZI2CU098rWY2ZqOVGJQYJ3hfEltmjcLNkKutw8LJAlg==}
+    dependencies:
+      webpack-combine-loaders: 2.0.4
     dev: true
     bundledDependencies:
       - webpack-combine-loaders
