@@ -110,7 +110,7 @@
      *
      * This option is experimental. The default value is false.
      */
-    // "useWorkspaces": true
+    "useWorkspaces": true
   },
 
   /**
@@ -124,7 +124,7 @@
    * LTS schedule: https://nodejs.org/en/about/releases/
    * LTS versions: https://nodejs.org/en/download/releases/
    */
-  "nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=14.15.0 <15.0.0",
+  "nodeSupportedVersionRange": ">=14.17.3 <15.0.0",
 
   /**
    * Odd-numbered major versions of Node.js are experimental.  Even-numbered releases
@@ -290,7 +290,7 @@
      * your PR branch, and in this situation "rush change" will also automatically invoke "git fetch"
      * to retrieve the latest activity for the remote master branch.
      */
-    // "url": "https://github.com/microsoft/rush-example",
+    "url": "TODO",
 
     /**
      * The default branch name. This tells "rush change" which remote branch to compare against.
@@ -456,6 +456,18 @@
     //   "packageName": "my-toolchain",
     //   "projectFolder": "tools/my-toolchain",
     //   "reviewCategory": "tools"
-    // }
+    // }  
+    {
+      "packageName": "@mylibs/ui--button",
+      "projectFolder": "ui/button",
+    },
+    {
+      "packageName": "@mylibs/ui--react-cat-image",
+      "projectFolder": "ui/ui--react-cat-image",
+    },
+    {
+      "packageName": "web-app-1",
+      "projectFolder": "apps/web-app-1",
+    },
   ]
 }
