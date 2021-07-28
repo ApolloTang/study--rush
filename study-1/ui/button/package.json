@@ -27,7 +27,8 @@
     "@types/react-dom": "^16"
   },
   "scripts": {
-    "build": "babel src -d build --ignore **/*.story.js,**/*.test.js",
-    "build:clean": "rm -fr ./lib"
+    "build": "rushx clean && rushx transpile",
+    "transpile": "babel src -d build -x .tsx,.ts,.js,.jsx --copy-files --ignore **/*.d.ts,**/*.story.js,**/*.story.jsx,**/*.story.ts,**/*.story.tsx,**/*.test.js,**/*.test.jsx,**/*.test.ts,**/*.test.tsx",
+    "clean": "rm -fr ./build"
   }
 }
