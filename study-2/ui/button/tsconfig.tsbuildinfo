@@ -62,8 +62,8 @@
         "affectsGlobalScope": true
       },
       "./src/index.tsx": {
-        "version": "e10626e9cf0f281db8f773268efc7cf4608b29ecb9c0050f138286138c3beab4",
-        "signature": "2cb23ece8b3fc6c606fb4a2b0e9cd919f95bddb6ea3880598eeff00690970cd2",
+        "version": "21d39096d79d8607da0aaf4b614b1390506f8b33c0edb81f8b2434ad81912322",
+        "signature": "1a3613e86d2e53ce5d6991fa46c230e90fc12e07084db3be26b8920f6b0d4ac0",
         "affectsGlobalScope": false
       },
       "../../common/temp/node_modules/.pnpm/@types+react-dom@16.9.14/node_modules/@types/react-dom/index.d.ts": {
@@ -73,15 +73,16 @@
       }
     },
     "options": {
-      "skipLibCheck": true,
       "target": 1,
       "module": 1,
+      "esModuleInterop": true,
       "jsx": 1,
       "strict": true,
-      "esModuleInterop": true,
+      "skipLibCheck": true,
       "composite": true,
       "outDir": "./build",
       "rootDir": "./src",
+      "noImplicitAny": false,
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
