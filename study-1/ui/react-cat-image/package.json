@@ -27,7 +27,7 @@
     "@types/react-dom": "^16"
   },
   "scripts": {
-    "build": "babel src -d lib --ignore **/*.story.js,**/*.test.js",
-    "build:clean": "rm -fr ./lib"
+    "build": "babel src -d build --ignore **/*.story.js,**/*.test.js",
+    "build:clean": "rm -fr ./build"
   }
 }

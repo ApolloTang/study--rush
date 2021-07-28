@@ -1,8 +1,8 @@
 import React from 'react';
 import img from './react.png';
 import Cat from '@mylibs/ui--react-cat-image';
-import s from './style.module.less';
 import MyButton from '@mylibs/ui--button';
+import s from './style.module.less';
 
 console.log('fdsaf')
 import FontTest from '../font-test/';

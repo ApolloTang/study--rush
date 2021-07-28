@@ -1,6 +1,10 @@
 {
   "extends": "../../tsconfig.base.json",
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "./build"],
   "compilerOptions": {
-    "allowJs": true
+    "allowJs": true,
+    "outDir": "./build",                        /* Redirect output structure to the directory. */
+    "declaration": false,
   }
 }
