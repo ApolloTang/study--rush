@@ -3,8 +3,8 @@
   "include": ["src/**/*"],
   "exclude": ["node_modules", "build"],
   "compilerOptions": {
-    "noImplicitAny": false,
-    "outDir": "build",                        /* Redirect output structure to the directory. */
-    "rootDir": "src"
+    "outDir": "build",
+    "rootDir": "src",
+    "noImplicitAny": false // TODO technical debt
   }
 }
