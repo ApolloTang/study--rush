@@ -52,8 +52,8 @@
         "affectsGlobalScope": true
       },
       "./src/index.tsx": {
-        "version": "88d9fce23679b2c6a93db3d15953f027220e28de0cfe28612f9d6ce07b92a7cd",
-        "signature": "2b0f5c9fbcf138b0c6d91084343e100b7d5395740726a83aa7f1ef254a47347d",
+        "version": "244611098524adecff807a09fee5176575e736355df1ce0b4adef374108b38c8",
+        "signature": "7acd14fae33898ab1430ff302d5e52c8160582d60c8c158685f1a96e8ec7d5b6",
         "affectsGlobalScope": false
       },
       "./src/types/imported-modules.d.ts": {
@@ -78,16 +78,16 @@
       }
     },
     "options": {
-      "skipLibCheck": true,
       "target": 1,
       "module": 1,
+      "esModuleInterop": true,
       "jsx": 1,
       "strict": true,
-      "esModuleInterop": true,
-      "noImplicitAny": false,
+      "skipLibCheck": true,
       "composite": true,
       "outDir": "./build",
       "rootDir": "./src",
+      "noImplicitAny": false,
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
