@@ -11,7 +11,7 @@ const StyledButton = styled.button`
     padding: 9px 36px;
 `;
 
-const Button = ({children}:any) => <div>
+const Button = ({children}) => <div>
   <StyledButton>
     {children}
   </StyledButton>
