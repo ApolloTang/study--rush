@@ -4,7 +4,8 @@
   "exclude": ["node_modules", "./build"],
   "compilerOptions": {
     "allowJs": true,
-    "outDir": "./build",                        /* Redirect output structure to the directory. */
+    "outDir": "./build",
     "declaration": false,
+    "noImplicitAny": false // TODO technical debt, remove once dependencies are type-safed.
   }
 }
