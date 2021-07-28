@@ -9,9 +9,9 @@ const StyledButton = styled.button`
     font-size: 1rem;
     font-weight: 300;
     padding: 9px 36px;
-`;
+`
 
-const Button = ({children}:any) => <div>
+const Button = ({children}) => <div>
   <StyledButton>
     {children}
   </StyledButton>
