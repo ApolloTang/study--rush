@@ -15,6 +15,7 @@ importers:
       '@babel/preset-react': ^7.8.3
       '@babel/preset-typescript': ^7.12.1
       '@mylibs/ui--button': workspace:*
+      '@mylibs/ui--component-1': workspace:*
       '@mylibs/ui--react-cat-image': workspace:*
       '@types/react': ^16
       '@types/react-dom': ^16
@@ -41,6 +42,7 @@ importers:
       webpack-dev-server: 3.11.1
     dependencies:
       '@mylibs/ui--button': link:../../ui/button
+      '@mylibs/ui--component-1': link:../../ui/component-1
       '@mylibs/ui--react-cat-image': link:../../ui/react-cat-image
       core-js: 3.15.2
       react: 17.0.2
@@ -92,6 +94,43 @@ importers:
       webpack: 4.44.2
       webpack-dev-server: 3.11.1
     dependencies:
+      babel-loader: 8.1.0_92faacbba6a817ed9def74abce7d8abb
+      core-js: 3.15.2
+      styled-components: 5.3.0_react@17.0.2
+      webpack: 4.44.2
+      webpack-dev-server: 3.11.1_webpack@4.44.2
+    devDependencies:
+      '@babel/cli': 7.14.8_@babel+core@7.14.8
+      '@babel/core': 7.14.8
+      '@babel/preset-env': 7.14.8_@babel+core@7.14.8
+      '@babel/preset-react': 7.14.5_@babel+core@7.14.8
+      '@babel/preset-typescript': 7.14.5_@babel+core@7.14.8
+      '@types/react': 16.14.11
+      '@types/react-dom': 16.9.14
+      '@types/styled-components': 5.1.11
+      babel-plugin-styled-components: 1.13.2_styled-components@5.3.0
+      react: 17.0.2
+
+  ../../ui/component-1:
+    specifiers:
+      '@babel/cli': ^7.8.4
+      '@babel/core': ^7.8.6
+      '@babel/preset-env': ^7.8.6
+      '@babel/preset-react': ^7.8.3
+      '@babel/preset-typescript': ^7.12.1
+      '@mylibs/ui--react-cat-image': workspace:*
+      '@types/react': ^16
+      '@types/react-dom': ^16
+      '@types/styled-components': '*'
+      babel-loader: 8.1.0
+      babel-plugin-styled-components: '*'
+      core-js: ^3.0.0
+      react: '>=16.8.0'
+      styled-components: ^5.0.1
+      webpack: 4.44.2
+      webpack-dev-server: 3.11.1
+    dependencies:
+      '@mylibs/ui--react-cat-image': link:../react-cat-image
       babel-loader: 8.1.0_92faacbba6a817ed9def74abce7d8abb
       core-js: 3.15.2
       styled-components: 5.3.0_react@17.0.2

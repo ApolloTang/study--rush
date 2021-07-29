@@ -40,6 +40,7 @@
   "dependencies": {
     "@mylibs/ui--button": "workspace:*",
     "@mylibs/ui--react-cat-image": "workspace:*",
+    "@mylibs/ui--component-1": "workspace:*",
     "core-js": "^3.0.0",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
