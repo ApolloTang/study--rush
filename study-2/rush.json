@@ -466,6 +466,10 @@
       "projectFolder": "ui/react-cat-image",
     },
     {
+      "packageName": "@mylibs/ui--component-1",
+      "projectFolder": "ui/component-1",
+    },
+    {
       "packageName": "web-app-1",
       "projectFolder": "apps/web-app-1",
     },

@@ -10,7 +10,8 @@
   },
   "references": [
     {"path": "../../ui/react-cat-image"},
-    {"path": "../../ui/button"}
+    {"path": "../../ui/button"},
+    {"path": "../../ui/component-1"}
   ]
 }
 
