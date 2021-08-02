@@ -1,0 +1,148 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.d.ts": {
+        "version": "2dc8c927c9c162a773c6bb3cdc4f3286c23f10eedc67414028f9cb5951610f60",
+        "signature": "2dc8c927c9c162a773c6bb3cdc4f3286c23f10eedc67414028f9cb5951610f60",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "signature": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "signature": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "7fac8cb5fc820bc2a59ae11ef1c5b38d3832c6d0dfaec5acdb5569137d09a481",
+        "signature": "7fac8cb5fc820bc2a59ae11ef1c5b38d3832c6d0dfaec5acdb5569137d09a481",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "signature": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "affectsGlobalScope": true
+      },
+      "../../common/temp/node_modules/.pnpm/@types+react@16.14.11/node_modules/@types/react/global.d.ts": {
+        "version": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
+        "signature": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
+        "affectsGlobalScope": true
+      },
+      "../../common/temp/node_modules/.pnpm/csstype@3.0.8/node_modules/csstype/index.d.ts": {
+        "version": "4ee363f83d7be2202f34fcd84c44da71bf3a9329fee8a05f976f75083a52ea94",
+        "signature": "4ee363f83d7be2202f34fcd84c44da71bf3a9329fee8a05f976f75083a52ea94",
+        "affectsGlobalScope": false
+      },
+      "../../common/temp/node_modules/.pnpm/@types+prop-types@15.7.4/node_modules/@types/prop-types/index.d.ts": {
+        "version": "f7b46d22a307739c145e5fddf537818038fdfffd580d79ed717f4d4d37249380",
+        "signature": "f7b46d22a307739c145e5fddf537818038fdfffd580d79ed717f4d4d37249380",
+        "affectsGlobalScope": false
+      },
+      "../../common/temp/node_modules/.pnpm/@types+scheduler@0.16.2/node_modules/@types/scheduler/tracing.d.ts": {
+        "version": "f5a8b384f182b3851cec3596ccc96cb7464f8d3469f48c74bf2befb782a19de5",
+        "signature": "f5a8b384f182b3851cec3596ccc96cb7464f8d3469f48c74bf2befb782a19de5",
+        "affectsGlobalScope": false
+      },
+      "../../common/temp/node_modules/.pnpm/@types+react@16.14.11/node_modules/@types/react/index.d.ts": {
+        "version": "2308de4bd094ed70bdc95ada3cece385c608a1eda179f8e1c71eed70a049cefc",
+        "signature": "2308de4bd094ed70bdc95ada3cece385c608a1eda179f8e1c71eed70a049cefc",
+        "affectsGlobalScope": true
+      },
+      "../../common/temp/node_modules/.pnpm/@types+hoist-non-react-statics@3.3.1/node_modules/@types/hoist-non-react-statics/index.d.ts": {
+        "version": "bfe1b52cf71aea9bf8815810cc5d9490fa9617313e3d3c2ee3809a28b80d0bb4",
+        "signature": "bfe1b52cf71aea9bf8815810cc5d9490fa9617313e3d3c2ee3809a28b80d0bb4",
+        "affectsGlobalScope": false
+      },
+      "../../common/temp/node_modules/.pnpm/@types+styled-components@5.1.11/node_modules/@types/styled-components/index.d.ts": {
+        "version": "12aea6e64a5808e78597737a1ed5b120ba5bd16f179719d5745311a5cf324656",
+        "signature": "12aea6e64a5808e78597737a1ed5b120ba5bd16f179719d5745311a5cf324656",
+        "affectsGlobalScope": true
+      },
+      "./src/index.tsx": {
+        "version": "67408768d08a9fde4f4d9d3222beba99aef0b931216ce2c1f2c8d18d4227016a",
+        "signature": "893ae3f490a8e62faaf90155846681c639be739ec5e2651de14fb6505f0ce22d",
+        "affectsGlobalScope": false
+      },
+      "../../common/temp/node_modules/.pnpm/@types+react-dom@16.9.14/node_modules/@types/react-dom/index.d.ts": {
+        "version": "c45d6f4d3a20be54e46237608f537a8d85397f87b9c3318d68ed925c2f1d0b51",
+        "signature": "c45d6f4d3a20be54e46237608f537a8d85397f87b9c3318d68ed925c2f1d0b51",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "target": 1,
+      "module": 1,
+      "esModuleInterop": true,
+      "jsx": 1,
+      "strict": true,
+      "skipLibCheck": true,
+      "composite": true,
+      "outDir": "./build",
+      "rootDir": "./src",
+      "noImplicitAny": false,
+      "configFilePath": "./tsconfig.json"
+    },
+    "referencedMap": {
+      "../../common/temp/node_modules/.pnpm/@types+hoist-non-react-statics@3.3.1/node_modules/@types/hoist-non-react-statics/index.d.ts": [
+        "../../common/temp/node_modules/.pnpm/@types+react@16.14.11/node_modules/@types/react/index.d.ts"
+      ],
+      "../../common/temp/node_modules/.pnpm/@types+react-dom@16.9.14/node_modules/@types/react-dom/index.d.ts": [
+        "../../common/temp/node_modules/.pnpm/@types+react@16.14.11/node_modules/@types/react/index.d.ts"
+      ],
+      "../../common/temp/node_modules/.pnpm/@types+react@16.14.11/node_modules/@types/react/index.d.ts": [
+        "../../common/temp/node_modules/.pnpm/@types+prop-types@15.7.4/node_modules/@types/prop-types/index.d.ts",
+        "../../common/temp/node_modules/.pnpm/@types+react@16.14.11/node_modules/@types/react/global.d.ts",
+        "../../common/temp/node_modules/.pnpm/@types+scheduler@0.16.2/node_modules/@types/scheduler/tracing.d.ts",
+        "../../common/temp/node_modules/.pnpm/csstype@3.0.8/node_modules/csstype/index.d.ts"
+      ],
+      "../../common/temp/node_modules/.pnpm/@types+styled-components@5.1.11/node_modules/@types/styled-components/index.d.ts": [
+        "../../common/temp/node_modules/.pnpm/@types+hoist-non-react-statics@3.3.1/node_modules/@types/hoist-non-react-statics/index.d.ts",
+        "../../common/temp/node_modules/.pnpm/@types+react@16.14.11/node_modules/@types/react/index.d.ts",
+        "../../common/temp/node_modules/.pnpm/csstype@3.0.8/node_modules/csstype/index.d.ts"
+      ],
+      "./src/index.tsx": [
+        "../../common/temp/node_modules/.pnpm/@types+react@16.14.11/node_modules/@types/react/index.d.ts",
+        "../../common/temp/node_modules/.pnpm/@types+styled-components@5.1.11/node_modules/@types/styled-components/index.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../../common/temp/node_modules/.pnpm/@types+hoist-non-react-statics@3.3.1/node_modules/@types/hoist-non-react-statics/index.d.ts": [
+        "../../common/temp/node_modules/.pnpm/@types+react@16.14.11/node_modules/@types/react/index.d.ts"
+      ],
+      "../../common/temp/node_modules/.pnpm/@types+react-dom@16.9.14/node_modules/@types/react-dom/index.d.ts": [
+        "../../common/temp/node_modules/.pnpm/@types+react@16.14.11/node_modules/@types/react/index.d.ts"
+      ],
+      "../../common/temp/node_modules/.pnpm/@types+react@16.14.11/node_modules/@types/react/index.d.ts": [
+        "../../common/temp/node_modules/.pnpm/@types+prop-types@15.7.4/node_modules/@types/prop-types/index.d.ts",
+        "../../common/temp/node_modules/.pnpm/@types+react@16.14.11/node_modules/@types/react/global.d.ts",
+        "../../common/temp/node_modules/.pnpm/@types+scheduler@0.16.2/node_modules/@types/scheduler/tracing.d.ts",
+        "../../common/temp/node_modules/.pnpm/csstype@3.0.8/node_modules/csstype/index.d.ts"
+      ],
+      "../../common/temp/node_modules/.pnpm/@types+styled-components@5.1.11/node_modules/@types/styled-components/index.d.ts": [
+        "../../common/temp/node_modules/.pnpm/@types+hoist-non-react-statics@3.3.1/node_modules/@types/hoist-non-react-statics/index.d.ts",
+        "../../common/temp/node_modules/.pnpm/@types+react@16.14.11/node_modules/@types/react/index.d.ts",
+        "../../common/temp/node_modules/.pnpm/csstype@3.0.8/node_modules/csstype/index.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.d.ts",
+      "../../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.dom.d.ts",
+      "../../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.es5.d.ts",
+      "../../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.scripthost.d.ts",
+      "../../../../../../../.config/yarn/global/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "../../common/temp/node_modules/.pnpm/@types+hoist-non-react-statics@3.3.1/node_modules/@types/hoist-non-react-statics/index.d.ts",
+      "../../common/temp/node_modules/.pnpm/@types+prop-types@15.7.4/node_modules/@types/prop-types/index.d.ts",
+      "../../common/temp/node_modules/.pnpm/@types+react-dom@16.9.14/node_modules/@types/react-dom/index.d.ts",
+      "../../common/temp/node_modules/.pnpm/@types+react@16.14.11/node_modules/@types/react/global.d.ts",
+      "../../common/temp/node_modules/.pnpm/@types+react@16.14.11/node_modules/@types/react/index.d.ts",
+      "../../common/temp/node_modules/.pnpm/@types+scheduler@0.16.2/node_modules/@types/scheduler/tracing.d.ts",
+      "../../common/temp/node_modules/.pnpm/@types+styled-components@5.1.11/node_modules/@types/styled-components/index.d.ts",
+      "../../common/temp/node_modules/.pnpm/csstype@3.0.8/node_modules/csstype/index.d.ts",
+      "./src/index.tsx"
+    ]
+  },
+  "version": "3.9.6"
+}
