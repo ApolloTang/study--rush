@@ -6,7 +6,7 @@
   yarn global add pnpm@6.3.0
 
   rush install
-  cd apps/web3
+  cd apps/web-app-1/
   rushx dev
 ```
 
