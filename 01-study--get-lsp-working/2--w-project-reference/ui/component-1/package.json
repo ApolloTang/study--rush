@@ -31,6 +31,6 @@
   "scripts": {
     "build": "rushx clean && rushx transpile",
     "transpile": "babel src -d build -x .tsx,.ts,.js,.jsx --copy-files --ignore **/*.d.ts,**/*.story.js,**/*.story.jsx,**/*.story.ts,**/*.story.tsx,**/*.test.js,**/*.test.jsx,**/*.test.ts,**/*.test.tsx",
-    "clean": "rm -fr ./build"
+    "clean": "rm -fr ./build && rm -fr tsconfig.tsbuildinfo"
   }
 }
