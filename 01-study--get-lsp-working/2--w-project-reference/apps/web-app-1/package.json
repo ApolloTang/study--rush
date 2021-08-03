@@ -50,11 +50,12 @@
   },
   "scripts": {
     "dev": "webpack-dev-server --progress --env.mode=\"development\"",
-    "build": "webpack",
-    "build:clean": "rimraf dist",
+    "build": "rushx clean && rushx bundle",
+    "bundle": "webpack",
     "start": "node server.js",
-    "prebuild": "yarn build:clean",
-    "prestart": "npm-run-all build",
+    "type-validate": "tsc --noEmit -p tsconfig.json",
+    "clean": "rm -fr ./build",
     "my-custom-incremental-command": "echo 'XXXXXX output of my-custom-incremental-command XXXXXXXXXXX'"
+
   }
 }

@@ -1,11 +1,12 @@
 {
-  "extends": "../../tsconfig.base.json",
+  "extends": "../../tsconfig.base-ui.json",
   "include": ["src/**/*"],
   "exclude": ["node_modules", "build"],
   "compilerOptions": {
     "composite": true,
-    "outDir": "build",
     "rootDir": "src",
+    "outDir": "build",
+    "declaration": true,
     "noImplicitAny": false // TODO technical debt
   },
   "references": [

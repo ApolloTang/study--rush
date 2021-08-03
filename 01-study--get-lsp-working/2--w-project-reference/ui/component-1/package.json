@@ -2,7 +2,7 @@
   "name": "@mylibs/ui--component-1",
   "version": "1.0.0",
   "main": "build/index.js",
-  "typings": "build/index.d.js",
+  "types": "build/index.d.js",
   "module": "src/index.tsx",
   "license": "MIT",
   "peerDependencies": {
@@ -29,8 +29,10 @@
     "@types/react-dom": "^16"
   },
   "scripts": {
-    "build": "rushx clean && rushx transpile",
-    "transpile": "babel src -d build -x .tsx,.ts,.js,.jsx --copy-files --ignore **/*.d.ts,**/*.story.js,**/*.story.jsx,**/*.story.ts,**/*.story.tsx,**/*.test.js,**/*.test.jsx,**/*.test.ts,**/*.test.tsx",
-    "clean": "rm -fr ./build && rm -fr tsconfig.tsbuildinfo"
+    "build": "rushx clean && rushx babel-transpile && rushx type-emit",
+    "type-emit": "tsc -p tsconfig.json",
+    "type-validate": "tsc --noEmit -p tsconfig.json",
+    "babel-transpile": "babel src -d build -x .tsx,.ts,.js,.jsx --copy-files --ignore **/*.d.ts,**/*.story.js,**/*.story.jsx,**/*.story.ts,**/*.story.tsx,**/*.test.js,**/*.test.jsx,**/*.test.ts,**/*.test.tsx",
+    "clean": "rm -fr ./build && rm -f tsconfig.tsbuildinfo"
   }
 }
