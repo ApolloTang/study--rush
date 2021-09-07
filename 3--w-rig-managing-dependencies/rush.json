@@ -465,12 +465,12 @@
     //   "packageName": "@mylibs/ui--button",
     //   "projectFolder": "ui/button",
     // },
-    // {
-    //   "packageName": "@mylibs/ui--react-cat-image",
-    //   "projectFolder": "ui/react-cat-image",
-    // },
     {
-      "packageName": "@mylibs/ui--component-1",
+      "packageName": "@myscope/ui--react-cat-image",
+      "projectFolder": "ui/react-cat-image",
+    },
+    {
+      "packageName": "@myscope/ui--component-1",
       "projectFolder": "ui/component-1",
     },
     {

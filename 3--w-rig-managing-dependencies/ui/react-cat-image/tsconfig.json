@@ -1,11 +1,15 @@
 {
-  "extends": "../../tsconfig.base-ui.json",
+  "xxxxextends": "../../tsconfig.base-ui.json",
+  "extends": "./node_modules/@myscope/heft-ui-rig/profiles/default/tsconfig-base.json", 
+  
   "include": ["src/**/*"],
-  "exclude": ["node_modules", "build"],
+  "exclude": ["node_modules", "dist"],
+  
   "compilerOptions": {
+    "types": ["heft-jest", "node"],
     "composite": true,
     "rootDir": "src",
-    "outDir": "build",
+    "outDir": "dist",
     "declaration": true,
     "noImplicitAny": false // TODO technical debt
   }

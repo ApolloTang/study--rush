@@ -39,7 +39,7 @@
     "typescript": "~4.3.5"
   },
   "dependencies": {
-    "@mylibs/ui--component-1": "workspace:*",
+    "@myscope/ui--component-1": "workspace:*",
     "core-js": "^3.0.0",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",

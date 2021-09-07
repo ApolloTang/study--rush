@@ -1,5 +1,5 @@
 {
-  "name": "@mylibs/ui--component-1",
+  "name": "@myscope/ui--component-1",
   "version": "1.0.0",
   "description": "this is react ui project",
   "main": "dist/index.js",
@@ -13,8 +13,8 @@
     "styled-components": "^5.0.1"
   },
   "dependencies": {
-    "core-js": "^3.0.0"
-
+    "core-js": "^3.0.0",
+    "@myscope/ui--react-cat-image": "workspace:*"
   },
   "devDependencies": {
     "react": ">=16.8.0",
