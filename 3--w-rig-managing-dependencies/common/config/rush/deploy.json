@@ -17,7 +17,7 @@
    * If the main project should include other unrelated Rush projects, add it to the "projectSettings" section,
    * and then specify those projects in the "additionalProjectsToInclude" list.
    */
-  "deploymentProjectNames": ["@myscope/app--node-1", "@myscope/app--node-2"],
+  "deploymentProjectNames": ["web-app-1"],
 
   /**
    * When deploying a local Rush project, the package.json "devDependencies" are normally excluded.
@@ -25,7 +25,7 @@
    *
    * The default value is false.
    */
-  "includeDevDependencies": false,
+  "includeDevDependencies": true,
 
   /**
    * When deploying a local Rush project, normally the .npmignore filter is applied so that Rush only copies
