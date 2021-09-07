@@ -461,14 +461,14 @@
     //   "packageName": "@mylibs/utils--shared",
     //   "projectFolder": "utils/utils--shared",
     // },
-    {
-      "packageName": "@mylibs/ui--button",
-      "projectFolder": "ui/button",
-    },
-    {
-      "packageName": "@mylibs/ui--react-cat-image",
-      "projectFolder": "ui/react-cat-image",
-    },
+    // {
+    //   "packageName": "@mylibs/ui--button",
+    //   "projectFolder": "ui/button",
+    // },
+    // {
+    //   "packageName": "@mylibs/ui--react-cat-image",
+    //   "projectFolder": "ui/react-cat-image",
+    // },
     {
       "packageName": "@mylibs/ui--component-1",
       "projectFolder": "ui/component-1",
@@ -476,10 +476,10 @@
     {
       "packageName": "web-app-1",
       "projectFolder": "apps/web-app-1",
-    },    
+    },
     {
-      "packageName": "@myscope/heft-node-rig",
-      "projectFolder": "tools/heft-node-rig",
+      "packageName": "@myscope/heft-ui-rig",
+      "projectFolder": "tools/heft-ui-rig",
     }
   ]
 }
