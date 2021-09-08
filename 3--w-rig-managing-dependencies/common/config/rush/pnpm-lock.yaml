@@ -15,8 +15,8 @@ importers:
       '@babel/preset-react': ^7.8.3
       '@babel/preset-typescript': ^7.12.1
       '@myscope/ui--component-1': workspace:*
-      '@types/react': ^16
-      '@types/react-dom': ^16
+      '@types/react': 17.0.2
+      '@types/react-dom': 17.0.2
       '@types/styled-components': '*'
       babel-loader: 8.1.0
       core-js: ^3.0.0
@@ -27,8 +27,8 @@ importers:
       less-loader: ^5.0.0
       mini-css-extract-plugin: ^0.9.0
       npm-run-all: ^4.1.5
-      react: '>=16.8.0'
-      react-dom: '>=16.8.0'
+      react: ^17.0.2
+      react-dom: ^17.0.2
       react-loadable: ^5.5.0
       regenerator-runtime: ^0.13.3
       rimraf: ^3.0.2
@@ -55,8 +55,8 @@ importers:
       '@babel/preset-env': 7.15.4_@babel+core@7.15.5
       '@babel/preset-react': 7.14.5_@babel+core@7.15.5
       '@babel/preset-typescript': 7.15.0_@babel+core@7.15.5
-      '@types/react': 16.14.15
-      '@types/react-dom': 16.9.14
+      '@types/react': 17.0.2
+      '@types/react-dom': 17.0.2
       '@types/styled-components': 5.1.14
       babel-loader: 8.1.0_78a143387788e14273e2758197c07846
       css-loader: 3.6.0_webpack@4.44.2
@@ -96,11 +96,11 @@ importers:
       '@rushstack/heft': 0.37.0
       '@types/heft-jest': 1.0.2
       '@types/node': 16.6.1
-      '@types/react': ^16
-      '@types/react-dom': ^16
+      '@types/react': 17.0.2
+      '@types/react-dom': 17.0.2
       '@types/styled-components': '*'
       core-js: ^3.0.0
-      react: '>=16.8.0'
+      react: ^17.0.2
       styled-components: ^5.0.1
       typescript: ~4.3.5
     dependencies:
@@ -111,8 +111,8 @@ importers:
       '@rushstack/heft': 0.37.0
       '@types/heft-jest': 1.0.2
       '@types/node': 16.6.1
-      '@types/react': 16.14.15
-      '@types/react-dom': 16.9.14
+      '@types/react': 17.0.2
+      '@types/react-dom': 17.0.2
       '@types/styled-components': 5.1.14
       react: 17.0.2
       styled-components: 5.3.1_react@17.0.2
@@ -1935,7 +1935,7 @@ packages:
   /@types/hoist-non-react-statics/3.3.1:
     resolution: {integrity: sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==}
     dependencies:
-      '@types/react': 16.14.15
+      '@types/react': 17.0.2
       hoist-non-react-statics: 3.3.2
     dev: true
 
@@ -1993,22 +1993,17 @@ packages:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
     dev: true
 
-  /@types/react-dom/16.9.14:
-    resolution: {integrity: sha512-FIX2AVmPTGP30OUJ+0vadeIFJJ07Mh1m+U0rxfgyW34p3rTlXI+nlenvAxNn4BP36YyI9IJ/+UJ7Wu22N1pI7A==}
+  /@types/react-dom/17.0.2:
+    resolution: {integrity: sha512-Icd9KEgdnFfJs39KyRyr0jQ7EKhq8U6CcHRMGAS45fp5qgUvxL3ujUCfWFttUK2UErqZNj97t9gsVPNAqcwoCg==}
     dependencies:
-      '@types/react': 16.14.15
+      '@types/react': 17.0.2
     dev: true
 
-  /@types/react/16.14.15:
-    resolution: {integrity: sha512-jOxlBV9RGZhphdeqJTCv35VZOkjY+XIEY2owwSk84BNDdDv2xS6Csj6fhi+B/q30SR9Tz8lDNt/F2Z5RF3TrRg==}
+  /@types/react/17.0.2:
+    resolution: {integrity: sha512-Xt40xQsrkdvjn1EyWe1Bc0dJLcil/9x2vAuW7ya+PuQip4UYUaXyhzWmAbwRsdMgwOFHpfp7/FFZebDU6Y8VHA==}
     dependencies:
       '@types/prop-types': 15.7.4
-      '@types/scheduler': 0.16.2
       csstype: 3.0.8
-    dev: true
-
-  /@types/scheduler/0.16.2:
-    resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
     dev: true
 
   /@types/stack-utils/1.0.1:
@@ -2019,7 +2014,7 @@ packages:
     resolution: {integrity: sha512-d6P1/tyNytqKwam3cQXq7a9uPtovc/mdAs7dBiz1YbDdNIT3X4WmuFU78YdSYh84TXVuhOwezZ3EeKuNBhwsHQ==}
     dependencies:
       '@types/hoist-non-react-statics': 3.3.1
-      '@types/react': 16.14.15
+      '@types/react': 17.0.2
       csstype: 3.0.8
     dev: true
 
@@ -8787,8 +8782,16 @@ packages:
       yargs: 13.3.2
     dev: true
 
+  /webpack-combine-loaders/2.0.4:
+    resolution: {integrity: sha512-5O5PYVE5tZ3I3uUm3QB7niLEJzLketl8hvAcJwa4YmwNWS/vixfVsqhtUaBciP8J4u/GwIHV52d7kkgZJFvDnw==}
+    dependencies:
+      qs: 6.7.0
+    dev: true
+
   /webpack-config-utils/2.3.1:
     resolution: {integrity: sha512-0uC5uj7sThFTePTQjfpe5Wqcbw3KSCxqswOmW96lwk2ZI2CU098rWY2ZqOVGJQYJ3hfEltmjcLNkKutw8LJAlg==}
+    dependencies:
+      webpack-combine-loaders: 2.0.4
     dev: true
     bundledDependencies:
       - webpack-combine-loaders
