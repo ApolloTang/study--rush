@@ -49,12 +49,13 @@
   },
   "scripts": {
     "dev": "webpack-dev-server --progress --env.mode=\"development\"",
-    "build": "",
     "webpackbuild": "rushx clean && rushx bundle",
+    "build": "",
+    "clean": "rimraf ./dist",
     "bundle": "webpack",
     "start": "node server.js",
-    "type-validate": "tsc --noEmit -p tsconfig.json",
-    "clean": "rm -fr ./build",
-    "my-custom-incremental-command": "echo 'XXXXXX output of my-custom-incremental-command XXXXXXXXXXX'"
+    "test": "",
+    "test:watch": "",
+    "type-validate": "tsc --noEmit -p tsconfig.json"
   }
 }

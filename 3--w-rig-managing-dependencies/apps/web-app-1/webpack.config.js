@@ -9,7 +9,7 @@ const title = 'react boilerplate';
 const webpackDevServer_host = '0.0.0.0';
 const webpackDevServer_port = '9090';
 const absPathToSrc = pathResolve(__dirname, 'src');
-const absPathToDist = pathResolve(__dirname, 'build');
+const absPathToDist = pathResolve(__dirname, 'dist');
 const absPathToFont = pathResolve(__dirname, 'src/common/fonts');
 
 
