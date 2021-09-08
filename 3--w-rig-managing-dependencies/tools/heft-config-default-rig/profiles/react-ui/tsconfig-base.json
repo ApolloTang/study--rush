@@ -5,9 +5,8 @@
     "outDir":  "../../../../../dist",
     "rootDir": "../../../../../src",
 
-    "jsx": "react",
-
     "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
     "declaration": true,
     "sourceMap": true,
     "declarationMap": true,
@@ -17,6 +16,7 @@
     "esModuleInterop": true,
     "noEmitOnError": false,
     "allowUnreachableCode": false,
+
     "resolveJsonModule": true,
 
     "types": [],
