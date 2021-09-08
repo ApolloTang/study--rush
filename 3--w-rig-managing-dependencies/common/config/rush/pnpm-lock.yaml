@@ -78,12 +78,12 @@ importers:
     specifiers:
       '@microsoft/api-extractor': 7.18.7
       '@rushstack/heft': ^0.37.0
-      '@rushstack/heft-jest-plugin': 0.1.22
+      '@rushstack/heft-jest-plugin': 0.1.24
       eslint: ~7.32.0
       typescript: ~4.3.5
     dependencies:
       '@microsoft/api-extractor': 7.18.7
-      '@rushstack/heft-jest-plugin': 0.1.22_@rushstack+heft@0.37.0
+      '@rushstack/heft-jest-plugin': 0.1.24_@rushstack+heft@0.37.0
       eslint: 7.32.0
       typescript: 4.3.5
     devDependencies:
@@ -1792,10 +1792,10 @@ packages:
       '@rushstack/rig-package': 0.3.0
       jsonpath-plus: 4.0.0
 
-  /@rushstack/heft-jest-plugin/0.1.22_@rushstack+heft@0.37.0:
-    resolution: {integrity: sha512-4WhARLhpWEHE9qPzK3/6oVtm1HK6yavmok0WngyqUHw0cS8GYsmWQu9DSgGWD5LfzNxHyvHxqgxwd0fgR/bPsw==}
+  /@rushstack/heft-jest-plugin/0.1.24_@rushstack+heft@0.37.0:
+    resolution: {integrity: sha512-Ji+xqVq54AqqOh2+NcfhJLKSvI5zEi1F2AMSTDAtdudPR/SYk6iudzmq33LxA7WqIc5d8s1s4V+8izWI5hdL+A==}
     peerDependencies:
-      '@rushstack/heft': ^0.37.0
+      '@rushstack/heft': ^0.37.1
     dependencies:
       '@jest/core': 25.4.0
       '@jest/reporters': 25.4.0
