@@ -1,19 +1,21 @@
-
+const isTest = String(process.env.NODE_ENV) === 'test';
 
 module.exports = (api) => {
   api.cache(true)
 
-  console.log('xxxx apps/react-app babel.config.js')
-
+  console.log(
+    '[Babel] using babel.config.js in apps/client-aircan; NODE_ENV: ',
+    process.env.NODE_ENV || 'development'
+  );
   const presets = [
     [
       '@babel/preset-env',
       {
         'debug': false,
-        'targets': '> 0.25%, not dead',
+        'targets': isTest ? {node: 'current'} :'> 0.25%, not dead',
         'useBuiltIns': 'usage',
         'corejs': 3,
-        'modules': false
+        'modules': isTest ? 'commonjs' : false
       }
     ],
     '@babel/preset-react',
