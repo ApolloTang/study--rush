@@ -1,5 +1,5 @@
 {
-  "extends": "./node_modules/@myscope/heft-ui-rig/profiles/react-ui/tsconfig-base.json",
+  "extends": "./node_modules/@myscope/heft-config-default-rig/profiles/react-ui/tsconfig-base.json",
   "compilerOptions": {
     "composite": true,
     "types": ["heft-jest", "node"]

@@ -1,5 +1,5 @@
 {
-	"name": "@myscope/heft-ui-rig",
+	"name": "@myscope/heft-config-default-rig",
         "version": "1.0.0",
 	"description": "A rig package for ui project modified from Node.js projects that build using Heft (derive from oficial v1.2.6)",
 	"license": "MIT",

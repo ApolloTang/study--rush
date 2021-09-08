@@ -74,7 +74,7 @@ importers:
       webpack-config-utils: 2.3.1
       webpack-dev-server: 3.11.1_93ca2875a658e9d1552850624e6b91c7
 
-  ../../tools/heft-ui-rig:
+  ../../tools/heft-config-default-rig:
     specifiers:
       '@microsoft/api-extractor': 7.18.7
       '@rushstack/heft': 0.37.0
@@ -91,7 +91,7 @@ importers:
 
   ../../ui/component-1:
     specifiers:
-      '@myscope/heft-ui-rig': workspace:*
+      '@myscope/heft-config-default-rig': workspace:*
       '@rushstack/eslint-config': ^2.4.0
       '@rushstack/heft': 0.37.0
       '@types/heft-jest': 1.0.2
@@ -106,7 +106,7 @@ importers:
     dependencies:
       core-js: 3.17.2
     devDependencies:
-      '@myscope/heft-ui-rig': link:../../tools/heft-ui-rig
+      '@myscope/heft-config-default-rig': link:../../tools/heft-config-default-rig
       '@rushstack/eslint-config': 2.4.0_typescript@4.3.5
       '@rushstack/heft': 0.37.0
       '@types/heft-jest': 1.0.2
@@ -1449,14 +1449,14 @@ packages:
       '@jest/console': 25.5.0
       '@jest/reporters': 25.4.0
       '@jest/test-result': 25.5.0
-      '@jest/transform': 25.4.0
+      '@jest/transform': 25.5.1
       '@jest/types': 25.5.0
       ansi-escapes: 4.3.2
       chalk: 3.0.0
       exit: 0.1.2
       graceful-fs: 4.2.8
       jest-changed-files: 25.5.0
-      jest-config: 25.4.0
+      jest-config: 25.5.4
       jest-haste-map: 25.5.1
       jest-message-util: 25.5.0
       jest-regex-util: 25.2.6
@@ -1464,7 +1464,7 @@ packages:
       jest-resolve-dependencies: 25.5.4
       jest-runner: 25.5.4
       jest-runtime: 25.5.4
-      jest-snapshot: 25.4.0
+      jest-snapshot: 25.5.1
       jest-util: 25.5.0
       jest-validate: 25.5.0
       jest-watcher: 25.5.0
@@ -1517,7 +1517,7 @@ packages:
       '@bcoe/v8-coverage': 0.2.3
       '@jest/console': 25.5.0
       '@jest/test-result': 25.5.0
-      '@jest/transform': 25.4.0
+      '@jest/transform': 25.5.1
       '@jest/types': 25.5.0
       chalk: 3.0.0
       collect-v8-coverage: 1.0.1
