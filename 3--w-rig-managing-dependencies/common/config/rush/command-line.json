@@ -61,7 +61,7 @@
       "ignoreMissingScript": true,
       "allowWarningsInSuccessfulBuild": true,
       "incremental": true,
-      "watchForChanges": false,
+      "watchForChanges": true,
     },
     {
       "name": "validate-type",
