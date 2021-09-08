@@ -77,14 +77,14 @@ importers:
   ../../tools/heft-config-default-rig:
     specifiers:
       '@microsoft/api-extractor': 7.18.7
-      '@rushstack/heft': 0.37.0
+      '@rushstack/heft': ^0.37.0
       '@rushstack/heft-jest-plugin': 0.1.22
-      eslint: ~7.30.0
+      eslint: ~7.32.0
       typescript: ~4.3.5
     dependencies:
       '@microsoft/api-extractor': 7.18.7
       '@rushstack/heft-jest-plugin': 0.1.22_@rushstack+heft@0.37.0
-      eslint: 7.30.0
+      eslint: 7.32.0
       typescript: 4.3.5
     devDependencies:
       '@rushstack/heft': 0.37.0
@@ -3981,8 +3981,8 @@ packages:
     resolution: {integrity: sha512-0rSmRBzXgDzIsD6mGdJgevzgezI534Cer5L/vyMX0kHzT/jiB43jRhd9YUlMGYLQy2zprNmoT8qasCGtY+QaKw==}
     engines: {node: '>=10'}
 
-  /eslint/7.30.0:
-    resolution: {integrity: sha512-VLqz80i3as3NdloY44BQSJpFw534L9Oh+6zJOUaViV4JPd+DaHwutqP7tcpkW3YiXbK6s05RZl7yl7cQn+lijg==}
+  /eslint/7.32.0:
+    resolution: {integrity: sha512-VHZ8gX+EDfz+97jGcgyGCyRia/dPOd6Xh9yPv8Bl1+SoaIwD+a/vlrOmGRUyOYu7MwUhc7CxqeaDZU13S4+EpA==}
     engines: {node: ^10.12.0 || >=12.0.0}
     hasBin: true
     dependencies:
