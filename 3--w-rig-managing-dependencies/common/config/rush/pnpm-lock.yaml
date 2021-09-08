@@ -92,37 +92,6 @@ importers:
   ../../ui/component-1:
     specifiers:
       '@myscope/heft-ui-rig': workspace:*
-      '@myscope/ui--react-cat-image': workspace:*
-      '@rushstack/eslint-config': ^2.4.0
-      '@rushstack/heft': 0.37.0
-      '@types/heft-jest': 1.0.2
-      '@types/node': 16.6.1
-      '@types/react': ^16
-      '@types/react-dom': ^16
-      '@types/styled-components': '*'
-      core-js: ^3.0.0
-      react: '>=16.8.0'
-      styled-components: ^5.0.1
-      typescript: ~4.3.5
-    dependencies:
-      '@myscope/ui--react-cat-image': link:../react-cat-image
-      core-js: 3.17.2
-    devDependencies:
-      '@myscope/heft-ui-rig': link:../../tools/heft-ui-rig
-      '@rushstack/eslint-config': 2.4.0_typescript@4.3.5
-      '@rushstack/heft': 0.37.0
-      '@types/heft-jest': 1.0.2
-      '@types/node': 16.6.1
-      '@types/react': 16.14.15
-      '@types/react-dom': 16.9.14
-      '@types/styled-components': 5.1.14
-      react: 17.0.2
-      styled-components: 5.3.1_react@17.0.2
-      typescript: 4.3.5
-
-  ../../ui/react-cat-image:
-    specifiers:
-      '@myscope/heft-ui-rig': workspace:*
       '@rushstack/eslint-config': ^2.4.0
       '@rushstack/heft': 0.37.0
       '@types/heft-jest': 1.0.2
@@ -2707,7 +2676,7 @@ packages:
       '@babel/helper-module-imports': 7.15.4
       babel-plugin-syntax-jsx: 6.18.0
       lodash: 4.17.21
-      styled-components: 5.3.1_react@17.0.2
+      styled-components: 5.3.1_react-dom@17.0.2+react@17.0.2
 
   /babel-plugin-syntax-jsx/6.18.0:
     resolution: {integrity: sha1-CvMqmm4Tyno/1QaeYtew9Y0NiUY=}
