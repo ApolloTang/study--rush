@@ -2,7 +2,7 @@ import React from 'react';
 import img from './react.png';
 // import MyButton from '@mylibs/ui--button';
 import s from './style.module.less';
-import Component1 from '@mylibs/ui--component-1';
+import Component1 from '@myscope/ui--component-1';
 
 console.log('fdsaf')
 import FontTest from '../font-test/';
