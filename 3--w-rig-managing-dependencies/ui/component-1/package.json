@@ -32,11 +32,11 @@
   },
   "scripts": {
     "build": "heft build --clean",
-    "clean": "heft clean",
     "build:watch": "heft build",
-
+    "clean": "heft clean",
     "test": "heft test",
-    "test:watch": "heft test --watch",
-    "type-validate": "heft build --clean"
+    "test:watch": "heft test",
+    "validate-lint": "", 
+    "validate-type": "heft build --clean"
   }
 }

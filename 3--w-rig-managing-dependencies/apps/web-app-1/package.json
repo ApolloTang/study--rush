@@ -48,14 +48,17 @@
     "styled-components": "^5.0.1"
   },
   "scripts": {
-    "dev": "webpack-dev-server --progress --env.mode=\"development\"",
-    "webpackbuild": "rushx clean && rushx bundle",
     "build": "",
+    "build:watch": "",
     "clean": "rimraf ./dist",
-    "bundle": "webpack",
-    "start": "node server.js",
     "test": "",
     "test:watch": "",
-    "type-validate": "tsc --noEmit -p tsconfig.json"
+    "validate-lint": "", 
+    "validate-type": "tsc --noEmit -p tsconfig.json",
+    
+    "dev": "webpack-dev-server --progress --env.mode=\"development\"",
+    "webpackbuild": "rushx clean && rushx bundle",
+    "bundle": "webpack",
+    "start": "node server.js"
   }
 }
