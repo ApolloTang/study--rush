@@ -10,6 +10,9 @@
   rushx dev
 ```
 
+This version get IDE to work by using typescript's project reference feature. 
+
+
 
 
 

@@ -10,6 +10,8 @@
   rushx dev
 ```
 
+This version get IDE to work by pointing main field in package.json to src/index.tsx (usually it is point dist/index.js).
+
 
 
 
