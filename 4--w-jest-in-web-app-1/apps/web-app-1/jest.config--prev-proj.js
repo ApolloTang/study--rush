@@ -2,7 +2,7 @@ const { pathsToModuleNameMapper } = require('ts-jest/utils');
 
 const { compilerOptions } = require('../../tsconfig.json');
 
-const projectRoot = '<rootDir>/apps/client-aircan'; // https://github.com/facebook/jest/issues/5417
+const projectRoot = '<rootDir>/apps/xxxx'; // https://github.com/facebook/jest/issues/5417
 
 module.exports = {
   rootDir: '../..',
@@ -37,7 +37,7 @@ module.exports = {
 
   moduleNameMapper: {
     '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
-      '<rootDir>/apps/client-aircan/.jest/file-mock.js',
+      '<rootDir>/apps/xxxx/.jest/file-mock.js',
     ...pathsToModuleNameMapper(compilerOptions.paths, { prefix: '<rootDir>/' }),
     '\\.module\\.css$': 'identity-obj-proxy', // <--- this must come before '\\.css$'
     '\\.css$': require.resolve('./.jest/style-mock.js'),
