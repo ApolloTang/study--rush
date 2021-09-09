@@ -4,7 +4,6 @@ import img from './react.png';
 import s from './style.module.less';
 import Component1 from '@myscope/ui--component-1';
 
-console.log('fdsaf')
 import FontTest from '../font-test/';
 const App = () => (
   <div className={`${s.app}`}>
