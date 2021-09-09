@@ -58,6 +58,7 @@
     "clean": "rimraf ./dist",
     "test": "jest",
     "test:watch": "jest",
+    "test:parallel": "heft test",
     "validate-lint": "",
     "validate-type": "tsc --noEmit -p tsconfig.json",
 

@@ -36,7 +36,8 @@
     "clean": "heft clean",
     "test": "heft test",
     "test:watch": "heft test",
-    "validate-lint": "", 
+    "test:parallel": "heft test",
+    "validate-lint": "",
     "validate-type": "heft build --clean"
   }
 }
