@@ -1,3 +1,4 @@
 test('jest checking', () => {
-  expect(true).toBeTruthy();
+  console.log('component-1 xxxx')
+  expect(1).toEqual(1);
 });

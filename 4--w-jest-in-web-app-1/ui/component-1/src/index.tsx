@@ -9,6 +9,9 @@ const Component1 = styled.div`
 
 const Button = () => (
   <Component1>
+    {
+      'adsfad'
+    }
     <div> this is component-1 </div>
     {/* <Cat /> */}
   </Component1>
