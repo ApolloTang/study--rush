@@ -2,19 +2,20 @@ import React from "react";
 import styled from "styled-components";
 // import Cat from '@myscope/ui--react-cat-image';
 
-const Component1 = styled.div`
+const ComponentStyled = styled.div`
   border: 1px solid blue;
   padding: 10px;
 `;
 
-const Button = () => (
-  <Component1>
-    {
-      'adsfad'
-    }
-    <div> this is component-1 </div>
+const Component = () => (
+  <ComponentStyled>
+    <div>This is @myscope/ui-component-1 with styled</div>
     {/* <Cat /> */}
-  </Component1>
+  </ComponentStyled>
 );
 
-export default Button;
+const XXXComponent = () => (
+  <div> this is @myscope/ui-component-1 </div>
+);
+
+export default Component;
