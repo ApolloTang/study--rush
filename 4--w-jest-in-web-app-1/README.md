@@ -16,8 +16,5 @@ Rush build:watch
 
 ## Description of this project
 
-This version is a copy of `2--w-project-reference`.
-The different is that the ui components (dependencies of web-app-1) are managed by heft and configuration are rigged. 
-
-The rigged setup is model after this study [https://github.com/ApolloTang/study--rush--node-app/tree/main/03-node-apps-w-ts-proj-ref](https://github.com/ApolloTang/study--rush--node-app/tree/main/03-node-apps-w-ts-proj-ref). It was mordify so that it can handle `jsx`.
+This version is a copy of `3--w-rig-managing-dependencies`. Now adding jest. 
 
